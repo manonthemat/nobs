@@ -1,0 +1,19 @@
+{
+  "name": "nobs",
+  "version": "0.0.1",
+  "description": "nested object string representation",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a code -t 100 -L -m 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manonthemat/nobs"
+  },
+  "author": "Matthias Sieber <matthiasksieber@gmail.com> (https://github.com/manonthemat)",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^11.2.1"
+  }
+}
