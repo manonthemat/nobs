@@ -1,6 +1,6 @@
 {
   "name": "nobs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "nested object string representation",
   "main": "lib/index.js",
   "scripts": {
