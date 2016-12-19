@@ -12,3 +12,10 @@ lab.test('just works', (done) => {
     Code.expect(Nobs( { a: { z: 1, x: 3 }, c: 5, b: { a: 5, x: 5, d: 5 } })).to.equal(expected);
     done();
 });
+
+lab.test('it does not modify arrays', (done) => {
+
+    const expected = '{"related":[{"minM1Relevance":90}]}';
+    Code.expect(Nobs( { related: [ { minM1Relevance: 90 } ] })).to.equal(expected);
+    done();
+});
